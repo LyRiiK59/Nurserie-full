@@ -1,0 +1,177 @@
+
+#navbarNav{
+    flex-grow: initial;
+  }
+    
+.container-fluid {
+    width: 99.5%;
+    height: 99.5%;
+    background: rgba(0, 206, 209, 0.59);
+    margin: 0 0 0 0;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 5px darkcyan;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+.background-image {
+    background-image: url(images/Fond02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fontstyle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fontsize-s {
+    font-size: small;
+}
+
+.single-card-info a:link {
+    color: white;
+}
+
+.single-card-info a:visited {
+    color: white;
+}
+
+.single-card-info a:hover{
+    color: rgba(0, 206, 209);
+}
+
+.single-card-info a:active {
+    color: black;
+}
+
+.bg-greenblue {
+    background-color:  rgba(0, 206, 209, 0.7);
+}
+
+.w-200 {
+    width: 200px;
+}
+
+.blackopacity8 {
+    background-color: rgba(0,0,0,.8);
+    color: white;
+}
+
+.my-100 {
+    margin-top: 100px;
+}
+
+.rareteRare {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+.toolbar {
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0,0,0,.9);
+    padding: 10px;
+    width: 200px;
+    margin-top: 100px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.toolbar a:last-child {
+    margin-right: 0;
+}
+
+.icons {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.icons:hover {
+    transform: scale(1.2);
+}
+
+.collapse {
+    display: none;
+}
+
+.collapse-advanced-search {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:rgba(0,0,0,.8);
+    color: white;
+    width: 400px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.star-rating{
+    color: white;
+    font-size: large;
+}
+/*create the star*/
+.myStar::before{
+    content:"\002605";
+}
+/*remove the default style (italic) of the star*/
+.myStar{
+    font-style: unset !important;
+}
+/*set active star color*/
+.is-active{
+    color:#fb8900;
+}
+/*set color on hover*/
+.myStar:not(.is-active):hover{
+    color: #fb8900;
+}
+
+.form-check-input {
+    width: 12px;
+    height: 12px;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-check-label {
+    padding: 1px;
+    margin-left: 2px;
+}
+
+.table-sell-cards td{
+    height: 44px;
+}
+
+thead {
+    background-color: rgba(0,0,0,.9); 
+    color: white;
+    height: 50px;
+}
+
+.container-fluid-footer {
+    width: 99.5%;
+    height: 99.5%;
+    background: rgba(0, 206, 209, 0.59);
+    margin: 0 auto;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 5px darkcyan;
+  }
+
+

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Opacité de l'image de fond</title>
+	<style>
+		body {
+			background-image: url("images/414698.jpg");
+			opacity: 1;
+			background-size: cover; /* pour redimensionner l'image selon la taille de la fenêtre */
+			background-position: center center; /* pour centrer l'image */
+			background-attachment: fixed; /* pour fixer l'image au niveau de l'écran */
+		}
+	</style>
+</head>
+<body>
+	<!-- Votre contenu ici -->
+</body>
+</html>
